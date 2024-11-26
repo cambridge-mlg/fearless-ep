@@ -70,8 +70,8 @@ def main():
     parser.add_argument('--n-observations', type=int, default=20, help='number of observations per group')
     parser.add_argument('--data-seed', type=int, default=0, help='data generation random seed')
     parser.add_argument('--init-seed', type=int, default=0, help='sampler initialisation random seed')
-    parser.add_argument('--load-reference-path', default=None, help='path to load approximate posterior from')
-    parser.add_argument('--save-reference-path', default=None, help='path to save approximate posterior to')
+    parser.add_argument('--load-reference-path', default=None, help='path to load reference posterior from')
+    parser.add_argument('--save-reference-path', default=None, help='path to save reference posterior to')
     parser.add_argument('--load-checkpoint-path', default=None, help='path to load checkpoint from')
     parser.add_argument('--save-checkpoint-path', default=None, help='path to save checkpoint to')
 
